@@ -5,7 +5,6 @@
 
 <script setup>
 import { ref } from 'vue';
-
 const emit = defineEmits(["ajouter_liste"]);
 const input_item = ref('');
 const ajouter_liste = () => {
